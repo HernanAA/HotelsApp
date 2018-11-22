@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, FlatList, Text, ScrollView } from 'react-native'
+import { View, FlatList, Text, ScrollView, Platform } from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Actions } from 'react-native-router-flux';
 import Utils from '../../helpers/utils';
@@ -79,9 +79,9 @@ class HotelView extends Component {
                             <Text style={styles.addressText}>{hotel.detail.address}</Text>
                         </View>
                     </View>
-                    <View style={styles.mapStyle}>
-                        <Map point={POINT} />
-                    </View>
+                    {Platform.OS == 'ios' &&<View style={styles.mapStyle}>
+                         <Map point={POINT} />
+                    </View>}
                     <View style={styles.descriptionContainer}>
                         <View style={styles.descriptionHeaderContainer}>
                             <Icon name='weekend' size={18} color={Styles.colors.darkGray}
