@@ -17,6 +17,15 @@ Dentro de pantalla donde se desea realizar la instalación, ejecutar los siguien
 
 **react-native link**
 
+> **iOS:**
+
+Además, para iOS se deberán correr los siguientes comandos adicionales para poder utilizar **GoogleMaps** en dicha plataforma:
+
+> - cd ios
+> - pod install
+> - cd ..
+> - react-native run-ios
+
 
 
 > **Android:**
@@ -25,19 +34,6 @@ Para poder  utilizar **GoogleMaps** en un emulador **Genymotion** se deben habil
 
 ![](https://github.com/HernanAA/HotelsApp/blob/master/src/images/GenymotionGPS.png) 
 
-
-
-> **iOS:**
-
-Además, para iOS se deberán correr los siguientes comandos adicionales para poder utilizar **GoogleMaps** en dicha plataforma:
-
-> - npm install --save react-native-maps.
-> - react-native link react-native-maps
-> - cd ios
-> - pod install
-> - cd ..
-> - react-native run-ios
-> - npm install --save react-native-maps.
 
 
 > **Servicios Api:**
