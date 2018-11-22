@@ -54,3 +54,27 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+.babelrc
+.buckconfig
+.flowconfig
+.gitattributes
+.watchmanconfig
+
+android/build.gradle
+android/gradle.properties
+android/gradlew
+android/gradlew.bat
+android/app/BUCK
+android/app/proguard-rules.pro
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+android/app/src/main/res/values/strings.xml
+android/app/src/main/res/values/styles.xml
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/wrapper/gradle-wrapper.properties
+android/keystores/BUCK
+android/keystores/debug.keystore.properties
+ios/Pods/
+node_modules/react-native-maps/package.json

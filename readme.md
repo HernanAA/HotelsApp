@@ -23,7 +23,7 @@ Dentro de pantalla donde se desea realizar la instalación, ejecutar los siguien
 
 Para poder  utilizar **GoogleMaps** en un emulador **Genymotion** se deben habilitar los **Google Play Services** en el emulador haciendo click en la opción **GAPPS**.
 
-![](https://github.com/HernanAA/HotelsApp/blob/master/Images/GenymotionGPS.png) 
+![](https://github.com/HernanAA/HotelsApp/blob/master/src/images/GenymotionGPS.png) 
 
 
 
@@ -47,11 +47,11 @@ Además, para iOS se deberán correr los siguientes comandos adicionales para po
 Imágenes
 -------------
 
-![](https://github.com/HernanAA/HotelsApp/blob/master/Images/Pantalla1.1.PNG)           ![](https://github.com/HernanAA/HotelsApp/blob/master/Images/Pantalla2.PNG)
+![](https://github.com/HernanAA/HotelsApp/blob/master/src/images/Pantalla1.1.PNG)           ![](https://github.com/HernanAA/HotelsApp/blob/master/src/images/Pantalla2.PNG)
 
 
-![](https://github.com/HernanAA/HotelsApp/blob/master/Images/Pantalla1.1ios.png)
-![](https://github.com/HernanAA/HotelsApp/blob/master/Images/Pantalla2ios.png)
+![](https://github.com/HernanAA/HotelsApp/blob/master/src/images/Pantalla1.1ios.png)
+![](https://github.com/HernanAA/HotelsApp/blob/master/src/images/Pantalla2ios.png)
 
 
 
