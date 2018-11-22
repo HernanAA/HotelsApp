@@ -1,0 +1,41 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - React (0.57.5):
+    - React/Core (= 0.57.5)
+  - React/Core (0.57.5):
+    - yoga (= 0.57.5.React)
+  - RNVectorIcons (6.1.0):
+    - React
+  - yoga (0.57.5.React)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - React (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  RNVectorIcons: 8c52e1e8da1153613fdef44748e865c25556cb9c
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 58f6d9e6fad4a4e1783d60c3ce368f7708a508ae
+
+COCOAPODS: 1.5.3

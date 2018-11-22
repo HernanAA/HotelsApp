@@ -1,0 +1,7 @@
+target 'HotelsApp' do
+    pod 'React', :path => '../node_modules/react-native'
+    pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+    pod 'GoogleMaps' 
+    pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  end
